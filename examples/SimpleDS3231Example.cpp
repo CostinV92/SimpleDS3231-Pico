@@ -2,7 +2,8 @@
 
 #include "SimpleDS3231.h"
 
-int main() {
+int main()
+{
     int state = 0;
     SimpleDS3231 rtc;
 
@@ -13,7 +14,7 @@ int main() {
     gpio_put(PICO_DEFAULT_LED_PIN, state);
 
     while (true) {
-        gpio_put(PICO_DEFAULT_LED_PIN, !state);
+        gpio_put(PICO_DEFAULT_LED_PIN, state);
         state = !state;
 
         printf("\r%s -- %s -- %d%cC", rtc.get_date_str(), rtc.get_time_str(), rtc.get_temp(), 248);
