@@ -1,3 +1,2 @@
-.vscode/
 build/
 examples/pico_sdk_import.cmake
