@@ -7,8 +7,8 @@
 
 #include "pico/stdlib.h"
 
-#ifndef __SIMPLEDS3231_H__
-#define __SIMPLEDS3231_H__
+#ifndef __SIMPLE_DS3231_HPP__
+#define __SIMPLE_DS3231_HPP__
 
 class SimpleDS3231 {
 private:
@@ -65,4 +65,4 @@ public:
     void                set_date(uint8_t day, uint8_t mon, int year);
 };
 
-#endif /* __SIMPLEDS3231_H__ */
+#endif /* __SIMPLE_DS3231_HPP__ */

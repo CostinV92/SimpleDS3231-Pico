@@ -5,7 +5,7 @@
  * Licensed under the MIT license.
  */
 
-#include "SimpleDS3231.h"
+#include "SimpleDS3231.hpp"
 #include "internal/ds3231.h"
 
 #include "hardware/i2c.h"

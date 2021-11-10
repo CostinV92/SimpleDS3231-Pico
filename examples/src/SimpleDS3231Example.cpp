@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#include "SimpleDS3231.h"
+#include "SimpleDS3231.hpp"
 
 int main()
 {

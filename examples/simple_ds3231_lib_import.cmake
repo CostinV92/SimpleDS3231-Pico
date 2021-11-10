@@ -22,4 +22,4 @@ endif ()
 
 set(SIMPLE_DS3231_LIB_PATH ${SIMPLE_DS3231_LIB_PATH} CACHE PATH "Path to the SimpleDS3231 library" FORCE)
 
-add_subdirectory(${SIMPLE_DS3231_LIB_PATH}/src ${CMAKE_BINARY_DIR}/SimpleDS3231)
+add_subdirectory(${SIMPLE_DS3231_LIB_PATH} ${CMAKE_BINARY_DIR}/SimpleDS3231)
